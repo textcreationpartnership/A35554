@@ -1,0 +1,481 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Amoret, or, Policy defeated, in a satyrical dialogue between Mopsus and Damon</title>
+            <author>L. C.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1682</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 18 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A35554</idno>
+            <idno type="STC">Wing C80</idno>
+            <idno type="STC">ESTC R7580</idno>
+            <idno type="EEBO-CITATION">11633450</idno>
+            <idno type="OCLC">ocm 11633450</idno>
+            <idno type="VID">47941</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A35554)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 47941)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 484:45)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Amoret, or, Policy defeated, in a satyrical dialogue between Mopsus and Damon</title>
+                  <author>L. C.</author>
+               </titleStmt>
+               <extent>[6], 11 p. ;  21 cm. </extent>
+               <publicationStmt>
+                  <publisher>Printed for Daniel Brown,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1682.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Dedication signed: L.C.</note>
+                  <note>Satire in verse on the Earl of Shaftesbury.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Shaftesbury, Anthony Ashley Cooper, --  Earl of, 1621-1683 --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-10</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2009-10</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:47941:1" rendition="simple:additions"/>
+            <!-- PDF PAGE 88 -->
+            <p>AMORET, OR, Policy Defeated;</p>
+            <p>In a <hi>Satyrical</hi> DIALOGUE BETWEEN <hi>MOPSUS</hi> and <hi>DAMON.</hi>
+            </p>
+            <q>
+               <l>
+                  <hi>Jupiter</hi> in Coelis, <hi>Caeſar</hi> regat omnia Terris;</l>
+               <l>Regnet at omnipotens undique, ſolus Amor.</l>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Daniel Brown</hi> at the Sign of the <hi>Black Swan</hi> and <hi>Bible</hi> without <hi>Temple-Bar,</hi> 1682.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:47941:2"/>
+            <!-- PDF PAGE 89 -->
+            <pb facs="tcp:47941:2"/>
+            <!-- PDF PAGE 89 -->
+            <head>TO THE <hi>RIGHT HONOURABLE,</hi> THE Earl of KINGSTON.</head>
+            <p>AS ſome young Bee, bore by high Winds far from his proper Hive, at laſt i'th' Hollow of ſome ſtately Oak it's little Stock of Honey lays; which, when found by ſome Swain, proves a grateful Preſent to his Countrey-Love, ſo I ſeparate from the vaſt Swarm of Poets, whoſe united Buzzings ſecure themſelves, humbly offer this firſt in<g ref="char:EOLhyphen"/>nocent Eſſay to your Probation; which, though not its Sweetneſs, may the ſin<g ref="char:EOLhyphen"/>cere Reſpect I bear your Honour, make acceptable: And truſt me, <hi>Sir,</hi> the Goodneſs of a Flower is not ſo much proved by their often ſucking,
+<pb facs="tcp:47941:3"/>
+               <!-- PDF PAGE 90 -->
+as yours will be in Pardoning this firſt Attempt: And where may Services well meant, hope Forgiveneſs, if not in your Honourable Family, which, as it has always met, and deſerv'd, Honour from the Supreme Fountain of Honour; ſo thoſe who've had De<g ref="char:EOLhyphen"/>pendance on You, have in their pro<g ref="char:EOLhyphen"/>per Stations found its kinder Influ<g ref="char:EOLhyphen"/>nce? And I beg your Lordſhip would permit me own my ſelf what I really am,</p>
+            <closer>
+               <signed>Your Lordſhips Moſt Humble Servant,<hi>L. C.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:47941:3"/>
+            <!-- PDF PAGE 90 -->
+            <head>THE PREFACE.</head>
+            <p>AFter ſome ſmall Conſideration, I found, that <hi>Truth,</hi> as well as the <hi>Ladies,</hi> move us moſt when neareſt <hi>Naked;</hi> and this ſort of Verſe (if ever ſhe wore <hi>Poetry</hi>) has moſt become her: others being either ſo cloſe wrought, they totally hid; or fine-ſpun, they immodeſtly diſcover'd thoſe Secrets that were not to be ſeen at all times.</p>
+            <p>Which poſſibly may be the Reaſon why the moſt inge<g ref="char:EOLhyphen"/>nious <hi>Satyrs</hi> have not had that happy effect that was deſigned or expected. And may be thoſe that fear her in that, may embrace her in <hi>This.</hi> And then no matter whether through the Mimickry of a Fool, or Precepts of a Wiſe Man, we ſee our Failings, ſo we do but leave them. I do not expect this will paſs for the reaſon of my Choice with all; for ſome will certainly imagine I put this taudry Crape in her hands, meerly becauſe I had no Silk in my Shop; but ſince I deſign not Cuſtom, that will not ſpoil my Trade.</p>
+            <p>I do not here, <hi>City-Friends,</hi> accuſe any of you of be<g ref="char:EOLhyphen"/>ing Authors of a wicked Deſign againſt the State, but only fear <hi>Ignoramus</hi> may have ſo far got the upper hand of you, as to blind your Judgments, while you may be made <hi>Properties</hi> by others. Nay, and when ſome probably would have plainly told you, that while you neglected your Buſineſs at home, to mind State-Af<g ref="char:EOLhyphen"/>fairs abroad, your Wives took indirect means for Fami<g ref="char:EOLhyphen"/>ly-Duties, and made you <hi>London-Cuckolds.</hi> I have
+<pb facs="tcp:47941:4"/>
+               <!-- PDF PAGE 91 -->
+modeſtly withdrawn into the <hi>Country,</hi> meerly to ſave your Reputations, and the Honour of your Families.</p>
+            <p>Yet ſince I fear I'me ſtill in the ſame danger 'twixt <hi>Whig</hi> and <hi>Bromigam,</hi> as St. <hi>Paul</hi> 'twixt <hi>Phariſees</hi> and <hi>Sadduces;</hi> I think it Wiſdom to make a Party. Know then <hi>Loyaliſts,</hi> I am (as they term you) a <hi>Tory,</hi> the Son of a <hi>Tory,</hi> and for the hope of a reſtauration of their Wits, to men that are out of them, and Peace and Quietneſs to the Realm, am I this day call'd in queſtion; and unleſs you with a Band of charitable Cen<g ref="char:EOLhyphen"/>ſures make a Reſcue, who knows what may become of me? And I think I have partly oblig'd you thereunto, in leaving <hi>Mopſus</hi> and his Wife unreconcil'd meerly for your ſakes.</p>
+            <p>But why do I publiſh my own Impertinencies, while I endeavour to ſuppreſs others? The truth of it is, if they who underſtand no more of Government, than I of Poetry, would but lay aſide their curious Inquiſitions into, and ſaucy Reflections upon, <hi>Matters</hi> of <hi>State;</hi> they ſhould be ſure of never being troubled more with Rhime of mine: though I cut off my hand, and caſt it from me, for ſo much as once offending <hi>them.</hi> And if by any means I obtain my End, I ſhall do as much good to the Body <hi>Politick,</hi> as he to the <hi>Eccleſiaſtick,</hi> who firſt purg'd the <hi>Church</hi> from the Superſtitious Errors, it once labour'd under.</p>
+         </div>
+      </front>
+      <body>
+         <div type="dialogue">
+            <pb n="1" facs="tcp:47941:4"/>
+            <!-- PDF PAGE 91 -->
+            <head>AMORET, OR, Policy Defeated; IN A SATYRICAL DIALOGUE BETWEEN <hi>MOPSUS</hi> &amp; <hi>DAMON.</hi>
+            </head>
+            <sp>
+               <speaker>Mopſus.</speaker>
+               <l>SO; now you're ſerious, and that Pipe's laid by,</l>
+               <l>Once more on you I'le <hi>Reformation</hi> try.</l>
+               <l>
+                  <hi>Damon,</hi> you know I've urg'd, that of all <hi>Laws,</hi>
+               </l>
+               <l>
+                  <hi>Nature</hi>'s, to us preſſes moſt home the <hi>Cauſe:</hi>
+               </l>
+               <l>But ſince to private Int'reſt you prefer</l>
+               <l>The <hi>publick Good,</hi> you muſt it's <hi>Ruine</hi> ſhare.</l>
+               <l>
+                  <pb n="2" facs="tcp:47941:5"/>
+                  <!-- PDF PAGE 92 -->Why then ſo unconcern'd do you paſs by</l>
+               <l>Of common Danger the all-moving Cry?</l>
+               <l>You've heard what I e'ne tremble to repeat;</l>
+               <l>Nor vvo'ud, but only to prevent your Fate:</l>
+               <lg>
+                  <l>How at <hi>laſt Mart</hi> with diſcontented Look,</l>
+                  <l>Of <hi>Plots</hi> ſo feelingly the <hi>Stranger</hi> ſpoke,</l>
+                  <l>As us with <hi>Ruin</hi>'s dreadful apprehenſion ſhook.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Damon.</speaker>
+               <l>I heard, and mind not, be they true or ſhamm'd,</l>
+               <l>Or whether th'Authors ſhall be ſav'd or damn'd.</l>
+            </sp>
+            <sp>
+               <speaker>Mopſus.</speaker>
+               <lg>
+                  <l>Nay now you'r mad, ſince you'r the firſt that fly,</l>
+                  <l>When by the Winds, or a diſtemper'd Sky,</l>
+                  <l>You ſee ſome gloomy Tempeſt drawing nigh.</l>
+               </lg>
+               <l>And when laſt Winter's Showrs each Chanel ſwell'd,</l>
+               <l>And the o'reflowing Waters drown'd the Field,</l>
+               <l>Your well-propt Hut alone ſecurely ſtood</l>
+               <l>Th'impetuous Rowlings o'the mighty Flood.</l>
+               <l>And will you now your wonted care let fall,</l>
+               <l>When the vaſt Inundation threatens all,</l>
+               <l>Becauſe it threatens <hi>All.</hi>
+               </l>
+            </sp>
+            <sp>
+               <pb n="3" facs="tcp:47941:5"/>
+               <!-- PDF PAGE 92 -->
+               <speaker>Damon.</speaker>
+               <lg>
+                  <l>Yes; for'ts the way to ruine all, if they</l>
+                  <l>Whoſe 'tis to ſerve, their Ruler diſobey;</l>
+                  <l>And to ſave all, o're all uſurp the Sway.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Mopſus.</speaker>
+               <l>Nay call't not ſo, if a diſtemper'd <hi>Head</hi>
+               </l>
+               <l>Dull'd with Diſeaſe, or erring Notions led</l>
+               <l>Forget; and th'hands with uſe grown skilful ſhou'd</l>
+               <l>Supply the Stomack with it's wonted Food;</l>
+               <l>Without which't can't ſubſiſt, and th' Body may</l>
+               <l>In part, and not affect the Head decay.</l>
+               <l>Each Member then its force may joyntly try,</l>
+               <l>To ſave the whole from th' growing Malady,</l>
+               <l>And ſo preſerve the <hi>Head.</hi>
+               </l>
+            </sp>
+            <sp>
+               <speaker>Damon.</speaker>
+               <lg>
+                  <l>Hold; for what might before have paſt for fear,</l>
+                  <l>And the Effects of ſelf-preſerving Care:</l>
+                  <l>Now, guilded wi'the laſt pretext, betrays</l>
+                  <l>The ſubtle curling of a Serpent's ways:</l>
+                  <l>Which, when in ſweeteſt Flow'rs it lurking lies,</l>
+                  <l>It's pointed Venom leaſt ſuſpected tries.</l>
+                  <l>
+                     <pb n="4" facs="tcp:47941:6"/>
+                     <!-- PDF PAGE 93 -->The <hi>Soul,</hi> in th' <hi>Head</hi> has always kept its <hi>Court,</hi>
+                  </l>
+                  <l>And there, each <hi>Senſe</hi> to Council do's reſort:</l>
+                  <l>Nor can you hurt the Body any where,</l>
+                  <l>But <hi>Sympathy</hi> affects its Agent there.</l>
+                  <l>Now, if the major part injoyn a Faſt,</l>
+                  <l>And Members moſt depending on the <hi>Taſt,</hi>
+                  </l>
+                  <lg>
+                     <l>Under pretence decaying ſtrength t'increaſe</l>
+                     <l>Shou'd apply food (the Appetite to pleaſe,)</l>
+                     <l>Would miniſh that, and heighten the Diſeaſe.</l>
+                  </lg>
+               </lg>
+               <lg>
+                  <l>New ways of Conſequence, becauſe untrode,</l>
+                  <l>Miſguide more Trav'lers than the beaten Rode.</l>
+                  <l>Laſt ſtorm, when you with yours ſought ſafer ground</l>
+                  <l>I kept my Flocks within their proper bound,</l>
+                  <l>And they were ſav'd, and yours diſpers'd, or drown'd.</l>
+                  <l>And ſince the mighty <hi>Pan</hi> did ne'r ordain</l>
+                  <l>A King, but aptly fitted him for Reign:</l>
+                  <l>With Heavens peculiar Gifts they'r always bleſt,</l>
+                  <l>And ours particularly 'bove the reſt.</l>
+                  <l>Why then diſtruſting him or heaven, ſhou'd I,</l>
+                  <l>Search fates decree with a too curious eye;</l>
+                  <l>Forſake my flock, ſince the juſt <hi>Pan</hi> will keep</l>
+                  <l>As well the quiet ſhepherds as the ſheep.</l>
+                  <l>Safely thro' lifes tempeſtuous Sea we ſteer</l>
+                  <lg>
+                     <l>Who bear our own, but make our ſelves no care,</l>
+                     <l>And motions reſt when in its proper Sphere.</l>
+                     <l>As Story tells, before his time, <hi>Sol</hi>'s Heir,</l>
+                  </lg>
+                  <l>Mounting but once his Father's burning Chair</l>
+                  <l>
+                     <pb n="5" facs="tcp:47941:6"/>
+                     <!-- PDF PAGE 93 -->Unfit for Rule; though while a <hi>Swain,</hi> none had</l>
+                  <l>So near reſemblance with a rural God:</l>
+                  <l>Periſh'd himſelf, and with miſguided flame,</l>
+                  <l>Endanger'd Heaven's Univerſal Frame.</l>
+                  <l>Yet leſt you think 'tis dull Stupidity</l>
+                  <l>Makes me affect this ſafe Obſcurity.</l>
+                  <l>Know I'm more Publick-Spirited than You,</l>
+                  <l>Who're cautious only of Known Plots, I, New;</l>
+                  <l>Which I'le diſcloſe, to ſhew how far you've err'd.</l>
+                  <l>That very Stranger you ſo lately heard,</l>
+                  <l>Eſpouſe our Cauſe with melting Words, and Eyes,</l>
+                  <l>That mov'd us leſs for our own Fate than his;</l>
+                  <l>Tries each Malitious <hi>Satyrs</hi> ſubtleſt Arts</l>
+                  <l>To blind our judgments, and betray our hearts.</l>
+                  <l>No Worms more ſecretly decay the Roſe,</l>
+                  <l>Or in our Flocks the hid Contagion grows;</l>
+                  <l>Then they, 'mongſt us ſcatter Sedition's Seeds;</l>
+                  <l>Strive to lay fallow, or ore-run with Weeds.</l>
+                  <l>(Ere ſince deſervedly they loſt,) theſe flowry meeds.</l>
+                  <l>Nor wants he skill to know which beſt will move caſe</l>
+                  <l>Us to his ends, Ambition, Fear, or Love.</l>
+                  <l>With which, when's vvrought diſlike t' our preſent</l>
+                  <l>Moulds us to any new ones, as he pleaſe.</l>
+                  <l>Uneven tempers by the two firſt are ſway'd,</l>
+                  <l>And you in both unluckily betray'd.</l>
+                  <l>But I untoucht reſiſted all his art,</l>
+                  <l>Till beauty made a paſſage to my heart.</l>
+                  <l>
+                     <pb n="6" facs="tcp:47941:7"/>
+                     <!-- PDF PAGE 94 -->For (though unmov'd in Loyalty and Truth)</l>
+                  <l>He found an eaſie ſoftneſs in my Youth.</l>
+                  <l>And all the tender ſymptoms that do prove</l>
+                  <l>A frame by nature pliable to Love.</l>
+                  <l>He ſhew'd me then the beauteous <hi>Amoret,</hi>
+                  </l>
+                  <l>And who cou'd ſee and ſcape —</l>
+                  <l>He, whilſt I ſtood with all her charms amaz'd,</l>
+                  <l>And on her heavenly features only gaz'd,</l>
+                  <l>Whiſper'd ſoft words, ſuch words that ſhe</l>
+                  <l>Was pleas'd with them, and for their ſakes with me.</l>
+                  <l>Such words! Each Goddeſs ſtood with liſtning ear,</l>
+                  <l>And ſmil'd, and wiſh'd to her he'd made the pray'r.</l>
+                  <l>They, with th' innocence of my look and mein</l>
+                  <l>Mov'd her to pity, and ſay, ſhe'd be mine.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Mopſus.</speaker>
+               <l>Stay; now you talk of Love, did you not ſee my Wife,</l>
+               <l>(For I'm ſo buſie with the affairs of Life)</l>
+               <l>I'de e'ne forgot to ask, although but now</l>
+               <l>One of our Lads juſt told me that he ſaw</l>
+               <l>A ſpruce young Corſer o'th' other Town.</l>
+               <l>Though 'ts out of ſeaſon give her a green Gown.</l>
+            </sp>
+            <sp>
+               <pb n="7" facs="tcp:47941:7"/>
+               <!-- PDF PAGE 94 -->
+               <speaker>Damon.</speaker>
+               <lg>
+                  <l>O name not Women, they've ever been our curſe,</l>
+                  <l>And of all ills to us the fatal ſource.</l>
+                  <l>Through Women firſt from Paradiſe we fell,</l>
+                  <l>And through that Stranger, they're Hells Agents ſtill.</l>
+                  <l>Yours muſt be falſe, ſince mine is ſo, and ſhe</l>
+                  <l>Had all her Sexes truth and conſtancy.</l>
+                  <l>Till by thoſe arts he won her firſt to me,</l>
+                  <l>He taught her ſcorn this low humility.</l>
+                  <l>Urging her merit claim'd a Sovereign ſway,</l>
+                  <l>(For ſhe was alwaies Lady o'th' <hi>May.</hi>)</l>
+                  <l>And ſince heaven had her frame 'bove ours refin'd,</l>
+                  <l>For ſomewhat greater than a Swain't deſign'd.</l>
+                  <l>Then tamper'd thus with me, now times are fit</l>
+                  <l>For change, ſide thou with me, I'll make thee <hi>Great.</hi>
+                  </l>
+                  <l>You ſay, you love; and greatneſs will regain</l>
+                  <l>Your <hi>Amoret,</hi> and firmly both maintain.</l>
+                  <l>'Twas well I lov'd (for the well baited hook</l>
+                  <l>My ſinking virtue deſperately ſhook)</l>
+                  <l>Till that, with juſt diſdain my heart did fire,</l>
+                  <l>(For that, where birth fails, can great Souls inſpire.)</l>
+                  <l>What though her ſhape excells all Womankind,</l>
+                  <l>My admiration's not to that confin'd.</l>
+                  <l>I lov'd her virtue, and when that decays,</l>
+                  <l>Fancy may live, but real paſſion dies.</l>
+                  <l>
+                     <pb n="8" facs="tcp:47941:8"/>
+                     <!-- PDF PAGE 95 -->Tell her, ſaid I, I here her loſs will mourn.</l>
+                  <l>And uſe baſe means, (though to injoy her,) ſcorn.</l>
+                  <l>'Tis juſt that You, who your <hi>Allegiance</hi> looſe,</l>
+                  <l>Shou'd have't repaid by Wives, in broken Vows.</l>
+                  <l>But why muſt I be loſt, ſince none did more</l>
+                  <l>Then <hi>Damon,</hi> all you <hi>Deities,</hi> adore.</l>
+                  <lg>
+                     <l>No Shepherd did more holy Off'rings bring,</l>
+                     <l>Lambs, fruit, freſh waters o'th' living Spring,</l>
+                     <l>Or did in ſweeter Notes your praiſes ſing.</l>
+                  </lg>
+                  <l>Not even they whoſe virtue grew ſo high,</l>
+                  <l>As here on earth to ſhare your <hi>Deity.</hi>
+                  </l>
+                  <l>'Twas well-plac'd Love rais'd moſt of you to Gods,</l>
+                  <l>And I in <hi>Amoret</hi> had ſure the Odds.</l>
+                  <l>O no! though Beauty finely guild the Face</l>
+                  <l>'Tis Golden Conſtancy that makes the Price;</l>
+                  <l>And ſuch were they, ſo to their Lovers true,</l>
+                  <l>That had you then been Gods, they had reſiſted you.</l>
+                  <l>'Twas ſuch I dreamt my <hi>Amoret</hi> wou'd prove;</l>
+                  <l>And ſuch ſhe was, when led by artleſs Love.</l>
+                  <l>You may remember; how each Sunny day,</l>
+                  <l>(Wi'th' ſame Innocence thoſe Young Lambs play)</l>
+                  <l>In every pleaſant Shade inclaſp'd we lay,</l>
+                  <l>And in ſoft breathings ſigh'd our Souls away.</l>
+                  <l>No damask roſe ſo purely bluſh'd, as ſhe,</l>
+                  <l>Such was the force of native modeſty.</l>
+                  <lg>
+                     <l>Whilſt in her boſom wantonly I threw,</l>
+                     <l>Pinks, Vi'lets, Jes'min, (ſweeteſt Flowers that grew)</l>
+                     <l>Yet ſweeter there, then in <hi>May</hi>'s pearly dew.</l>
+                  </lg>
+                  <l>
+                     <pb n="9" facs="tcp:47941:8"/>
+                     <!-- PDF PAGE 95 -->I carv'd her name on every growing bark;</l>
+                  <l>With that I did my wandring younlings mark.</l>
+                  <l>There were unfens'd lay open to the <hi>Strand,</hi>
+                  </l>
+                  <l>Her name preſcrib'd the limits o'my Land.</l>
+                  <l>I found no Bird that nature fram'd for ſpeech,</l>
+                  <l>But did ther name in various Sonets teach.</l>
+                  <l>That made the ſweeteſt muſick o'the wood,</l>
+                  <l>And Eccho, that ſo plainly underſtood:</l>
+                  <l>That 'twou'd of't ſelf in whiſtling Winds repeat,</l>
+                  <l>And in juſt motions neighb'ring Waters beat.</l>
+                  <l>But now, bleak Winds blaſt all the tender Sprouts,</l>
+                  <l>And quaking Sheep peirce thro their tater'd Coats.</l>
+                  <lg>
+                     <l>No Birds are heard here, but the gaſtly Owl</l>
+                     <l>Shrieking her baleful note; Wolves howl,</l>
+                     <l>And ſtormy Waves in foaming Billows roul:</l>
+                  </lg>
+                  <l>You ſee I'm not the merry Swain I was</l>
+                  <l>But here forlorn, ſtretch'd on this witherd graſs,</l>
+                  <l>In doleful ſighs the tedious hours paſs.</l>
+               </lg>
+               <lg>
+                  <l>She heard (for <hi>Cupid</hi> ſo deſign'd) while ſhe</l>
+                  <l>Beneath a Wilows ſhady Covert lay.</l>
+                  <l>And whether ſhame made her ſo long forbear,</l>
+                  <l>Or curioſity of hearing more.</l>
+                  <l>Who knows? at laſt, ſhe, leſt he farther griev'd,</l>
+                  <l>His drooping Spirits in ſuch words reviv'd.</l>
+                  <l>
+                     <pb n="10" facs="tcp:47941:9"/>
+                     <!-- PDF PAGE 96 -->I, thro another, firſt to you did yield:</l>
+                  <l>But's your own merit now has won the field,</l>
+                  <l>I heard Maids always did their Lovers try,</l>
+                  <l>Ere they reſign'd themſelves, and liberty.</l>
+                  <l>But leſt, thro ill conduct in the ſearch, there lie</l>
+                  <l>Some ſeeming cauſe for future jealouſie.</l>
+                  <l>Know that I ſtood by all their Arts unmov'd,</l>
+                  <l>And moſt, then when I ſeem'd to ſcorn, my <hi>Damon</hi> lov'd.</l>
+                  <l>And, thus, their eaſe and wealth I'le quit, for you;</l>
+                  <l>And that's a pow'rful argument I'm true.</l>
+                  <l>Come, ſince the night grows on, let's homeward go,</l>
+                  <l>And love, when there, will prompt us what to do.</l>
+                  <l>He, ſnatch'd his Pipe, and as they went, he play'd</l>
+                  <l>Such tender notes, as ſooth'd the yielding Maid,</l>
+                  <l>And ſhe to work his growing paſſion high,</l>
+                  <l>Sung to his Pipe, in ſweeteſt harmony,</l>
+                  <l>Theſe following Words,</l>
+                  <lg>
+                     <l>Since Lov's the buſineſs of our Sex,</l>
+                     <l>'Ts your's to keep us True.</l>
+                     <l>
+                        <hi>Pan</hi> Shepherds only made for us,</l>
+                     <l>And us, rewards to you.</l>
+                  </lg>
+                  <lg>
+                     <l>If we Love on; then cal's not falſe,</l>
+                     <l>Tho it ſhould prove elſewhere.</l>
+                     <l>'Tis you are falſe, in leaving yours,</l>
+                     <l>We move but in our Sphere.</l>
+                  </lg>
+                  <lg>
+                     <pb n="11" facs="tcp:47941:9"/>
+                     <!-- PDF PAGE 96 -->
+                     <l>So Planets, tho they're wandring Stars,</l>
+                     <l>(And yo've oft cal'd me ſo;)</l>
+                     <l>We've found in their unequal ways</l>
+                     <l>A juſt proportion go.</l>
+                  </lg>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Mopſus</hi> the while, wi'th' ſame grizly Beard,</l>
+                  <l>That made him once, as <hi>Policitian,</hi> fear'd;</l>
+                  <l>And help of horns ſneakt off wi'th' next Herd.</l>
+               </lg>
+            </sp>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
